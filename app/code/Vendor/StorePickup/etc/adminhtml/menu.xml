@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Menu/etc/menu.xsd">
+    <add id="Vendor_StorePickup::storepickup" title="Store Pickup" module="Vendor_StorePickup" sortOrder="100" parent="Magento_Sales::sales" action="storepickup/order/index"/>
+</menu>
